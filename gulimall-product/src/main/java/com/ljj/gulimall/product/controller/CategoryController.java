@@ -1,6 +1,7 @@
 package com.ljj.gulimall.product.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,13 +23,24 @@ import com.ljj.common.utils.R;
  *
  * @author ljj
  * @email 1061984275@qq.com
- * @date 2023-04-28 14:57:23
+ * @date 2023-05-05 10:34:15
  */
 @RestController
 @RequestMapping("product/category")
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;
+
+    /**
+     * 获取商品中的所有层次结构以树形表示
+     */
+    @RequestMapping("/list/tree")
+    //@RequiresPermissions("product:category:list")
+    public R listWithTree(){
+     List<CategoryEntity> list = categoryService.listWithTree();
+
+        return R.ok().put("data", list);
+    }
 
     /**
      * 列表

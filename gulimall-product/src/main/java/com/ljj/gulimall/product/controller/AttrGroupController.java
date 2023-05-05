@@ -22,7 +22,7 @@ import com.ljj.common.utils.R;
  *
  * @author ljj
  * @email 1061984275@qq.com
- * @date 2023-04-28 14:57:23
+ * @date 2023-05-05 10:34:15
  */
 @RestController
 @RequestMapping("product/attrgroup")

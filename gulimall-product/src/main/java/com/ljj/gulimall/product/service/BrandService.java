@@ -11,7 +11,7 @@ import java.util.Map;
  *
  * @author ljj
  * @email 1061984275@qq.com
- * @date 2023-04-28 14:16:18
+ * @date 2023-05-05 10:34:15
  */
 public interface BrandService extends IService<BrandEntity> {
 
