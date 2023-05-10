@@ -1,10 +1,10 @@
-package com.ljj.gulimall.gulimallorder;
+package com.ljj.gulimall.coupon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GulimallOrderApplicationTests {
+class GulimallCouponApplicationTests {
 
     @Test
     void contextLoads() {
