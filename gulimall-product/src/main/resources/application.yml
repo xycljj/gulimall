@@ -14,11 +14,6 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-    alicloud:
-      access-key: LTAI5tHSfjAcjA3nfWr2PKDj
-      secret-key: 6HdPaSkwJWhSeG51VHac6owdMOscTv
-      oss:
-        endpoint: oss-cn-heyuan.aliyuncs.com
   redis:
     host: 192.168.174.128
     port: 6379
